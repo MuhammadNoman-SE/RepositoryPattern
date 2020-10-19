@@ -1,0 +1,12 @@
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Infrastructure.deps.json
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Infrastructure.dll
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Infrastructure.pdb
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Domain.dll
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Domain.pdb
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.csprojAssemblyReference.cache
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.AssemblyInfoInputs.cache
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.AssemblyInfo.cs
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.csproj.CoreCompileInputs.cache
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.csproj.CopyComplete
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.dll
+D:\RepositoryPattern\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.pdb
