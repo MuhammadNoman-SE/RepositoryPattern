@@ -1,5 +1,4 @@
-﻿using MyShop.Domain.Services;
-using System;
+﻿using System;
 
 namespace MyShop.Domain.Models
 {
@@ -13,18 +12,12 @@ namespace MyShop.Domain.Models
         public string PostalCode { get; set; }
         public string Country { get; set; }
 
-        private byte[] _profilePic;
+        public Lazy<byte[]> ProfilePicValueHolder { get; set; }
         public byte[] ProfilePic { 
             get {
-                if (null == _profilePic) {
-                    _profilePic = ProfilePicService.GetFor(Name);
-                
-                }
-                return _profilePic;
+                return ProfilePicValueHolder.Value;
             }
-            set {
-                _profilePic = value;
-            }
+            
         }
 
         public Customer()

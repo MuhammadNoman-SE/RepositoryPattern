@@ -19,7 +19,7 @@ namespace MyShop.Infrastructure
                 .UseSqlite("Data Source=orders.db");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
-            modelBuilder.Entity<Customer>().Ignore(c=>c.ProfilePic);
+            modelBuilder.Entity<Customer>().Ignore(c=>c.ProfilePic).Ignore(c=>c.ProfilePicValueHolder);
             base.OnModelCreating(modelBuilder);
         }
     }

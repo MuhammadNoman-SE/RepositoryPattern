@@ -6,3 +6,4 @@ D:\RepositoryPattern\RepositoryPattern\MyShop.Domain\obj\Debug\netstandard2.0\My
 D:\RepositoryPattern\RepositoryPattern\MyShop.Domain\obj\Debug\netstandard2.0\MyShop.Domain.csproj.CoreCompileInputs.cache
 D:\RepositoryPattern\RepositoryPattern\MyShop.Domain\obj\Debug\netstandard2.0\MyShop.Domain.dll
 D:\RepositoryPattern\RepositoryPattern\MyShop.Domain\obj\Debug\netstandard2.0\MyShop.Domain.pdb
+D:\RepositoryPattern\RepositoryPattern\MyShop.Domain\obj\Debug\netstandard2.0\MyShop.Domain.csprojAssemblyReference.cache
