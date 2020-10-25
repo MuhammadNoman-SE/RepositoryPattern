@@ -5,6 +5,7 @@ using System.Text;
 using System.Linq;
 using MyShop.Infrastructure.Services;
 using MyShop.Infrastructure.Lazy.Proxy;
+using MyShop.Infrastructure.Lazy;
 
 namespace MyShop.Infrastructure.Repositories
 {
@@ -22,7 +23,8 @@ namespace MyShop.Infrastructure.Repositories
             //    });
             //return c; 
             //});
-            return base.GetAll().Select(MapProxy);
+            return base.GetAll().Select(MapGhost);
+            //return base.GetAll().Select(MapProxy);
         }
         private CustomerProxy MapProxy(Customer customer)
         {
@@ -34,6 +36,16 @@ namespace MyShop.Infrastructure.Repositories
                 PostalCode = customer.PostalCode,
                 Country = customer.Country
             };
+        }
+        private Customer MapGhost(Customer customer)
+        {
+            return Get(customer.CustomerId);
+        }
+        public override Customer Get(Guid id)
+        {
+            Guid cid=_context.Customers.Where(c=>c.CustomerId == id).Select(d=>d.CustomerId).Single();
+            return new CustomerGhost(() =>  base.Get(id)) { CustomerId = cid };
+            
         }
     }
 }
